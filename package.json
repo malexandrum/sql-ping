@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "tedious": "^14.3.0"
+  },
+  "name": "sql-ping",
+  "description": "Takes a list of SQL servers by name or IP address and tries to connect and run a query (default can be overriden). Outputs, by default in same file the result",
+  "version": "0.1.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "ping",
+    "sql",
+    "mssql",
+    "check"
+  ],
+  "author": "Alexandru Molodoi",
+  "license": "ISC"
+}
