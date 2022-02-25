@@ -3,7 +3,7 @@
     "tedious": "^14.3.0"
   },
   "name": "sql-ping",
-  "description": "Takes a list of SQL servers by name or IP address and tries to connect and run a query (default can be overriden). Outputs, by default in same file the result",
+  "description": "Check if a SQL server is alive",
   "version": "0.1.0",
   "main": "index.js",
   "scripts": {
@@ -16,5 +16,13 @@
     "check"
   ],
   "author": "Alexandru Molodoi",
-  "license": "ISC"
+  "license": "ISC",
+  "homepage": "https://github.com/malexandrum/sql-ping",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/malexandrum/sql-ping.git"
+  },
+  "engines": {
+    "node": ">=16.10.0"
+  }
 }
